@@ -1,0 +1,22 @@
+{
+  "_comment": "Hand-maintained hints for tools/update.mjs. 'informalization' lists repos whose site reads a Lean proof back into plain English; they get the featured section. 'exclude' hides repos from the page. 'description' overrides the text shown for a repo. 'sites' adds extra site links per repo (label + url); the repo's own Pages/homepage is always probed and listed first.",
+  "informalization": [
+    "star-height",
+    "fourcolor-lean"
+  ],
+  "exclude": [
+    "tangentproofs.github.io"
+  ],
+  "description": {},
+  "sites": {
+    "laptop": [
+      {
+        "label": "Proof assistant + interpreter",
+        "url": "https://aptop.tangentcode.com/"
+      }
+    ]
+  },
+  "siteLabel": {
+    "laptop": "Formalization (blueprint)"
+  }
+}
