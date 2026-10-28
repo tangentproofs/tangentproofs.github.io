@@ -1,7 +1,79 @@
 {
   "org": "tangentproofs",
-  "generated": "2026-10-28T04:12:59.754Z",
+  "generated": "2026-10-28T12:14:08.153Z",
   "repos": [
+    {
+      "name": "conway-knots",
+      "url": "https://github.com/tangentproofs/conway-knots",
+      "githubDescription": "Lean 4 + Autoform formalization of Conway's classification of rational tangles",
+      "language": "Lean",
+      "pushedAt": "2026-10-28T04:54:34Z",
+      "sites": [
+        {
+          "label": "Formalization",
+          "url": "https://tangentproofs.github.io/conway-knots/",
+          "title": "Rational tangles - Conway knots",
+          "description": null,
+          "ogImage": null
+        },
+        {
+          "label": "Plain-English informalization",
+          "url": "https://tangentproofs.github.io/conway-knots/learn/",
+          "title": "Conway's rational tangles, informalized",
+          "description": "Reading a Lean formalization of part of Conway's classification of rational tangles (via Kauffman–Lambropoulou's integer colorings): formal statements in plain English, proof outlines, quizzes, an honest review of what is and isn't proved, and browsable source.",
+          "ogImage": "https://tangentproofs.github.io/conway-knots/learn/assets/og.png?v=1"
+        }
+      ],
+      "informalization": true
+    },
+    {
+      "name": "eliahou-collatz-bounds",
+      "url": "https://github.com/tangentproofs/eliahou-collatz-bounds",
+      "githubDescription": "\"The 3x+1 problem: new lower bounds on nontrivial cycle lengths\" in Lean 4",
+      "language": "Lean",
+      "pushedAt": "2026-10-28T04:39:36Z",
+      "sites": [
+        {
+          "label": "Formalization",
+          "url": "https://tangentproofs.github.io/eliahou-collatz-bounds/",
+          "title": "Eliahou Collatz Bounds — Lean 4 formalization",
+          "description": null,
+          "ogImage": null
+        },
+        {
+          "label": "Plain-English informalization",
+          "url": "https://tangentproofs.github.io/eliahou-collatz-bounds/learn/",
+          "title": "Eliahou's Collatz cycle bounds, informalized",
+          "description": "Eliahou's 1993 Collatz theorem read back into plain English from its Lean 4 proof: any 3x+1 cycle above 2^40 has at least 17,087,915 elements. Statements, proof outlines, quizzes and browsable source.",
+          "ogImage": "https://tangentproofs.github.io/eliahou-collatz-bounds/learn/assets/og.png?v=1"
+        }
+      ],
+      "informalization": true
+    },
+    {
+      "name": "rakesieve",
+      "url": "https://github.com/tangentproofs/rakesieve",
+      "githubDescription": "A formally verified prime number sieve in Lean4.",
+      "language": "Lean",
+      "pushedAt": "2026-10-28T04:27:28Z",
+      "sites": [
+        {
+          "label": "Formalization",
+          "url": "https://tangentproofs.github.io/rakesieve/",
+          "title": "RakeSieve — Lean 4 prime sieve formalization",
+          "description": null,
+          "ogImage": null
+        },
+        {
+          "label": "Plain-English informalization",
+          "url": "https://tangentproofs.github.io/rakesieve/learn/",
+          "title": "RakeSieve, explained",
+          "description": "Reading a Lean 4 prime sieve back into plain English: arithmetic sequences, rakes, the sieve invariant, what the headline theorem really says, quizzes and browsable source.",
+          "ogImage": "https://tangentproofs.github.io/rakesieve/learn/assets/og.png"
+        }
+      ],
+      "informalization": true
+    },
     {
       "name": "subexponential-sat",
       "url": "https://github.com/tangentproofs/subexponential-sat",
@@ -99,7 +171,7 @@
       "url": "https://github.com/tangentproofs/jacobian-variety",
       "githubDescription": "auto-formalizing some old school math",
       "language": "Lean",
-      "pushedAt": "2026-10-28T03:11:39Z",
+      "pushedAt": "2026-10-28T05:24:10Z",
       "sites": [
         {
           "label": "Site",
@@ -129,57 +201,6 @@
           "label": "Proof assistant + interpreter",
           "url": "https://aptop.tangentcode.com/",
           "title": "aPToP — aptop.tangentcode.com",
-          "description": null,
-          "ogImage": null
-        }
-      ],
-      "informalization": false
-    },
-    {
-      "name": "conway-knots",
-      "url": "https://github.com/tangentproofs/conway-knots",
-      "githubDescription": "Lean 4 + Autoform formalization of Conway's classification of rational tangles",
-      "language": "Lean",
-      "pushedAt": "2026-10-04T12:48:09Z",
-      "sites": [
-        {
-          "label": "Site",
-          "url": "https://tangentproofs.github.io/conway-knots/",
-          "title": "Rational tangles - Conway knots",
-          "description": null,
-          "ogImage": null
-        }
-      ],
-      "informalization": false
-    },
-    {
-      "name": "rakesieve",
-      "url": "https://github.com/tangentproofs/rakesieve",
-      "githubDescription": "A formally verified prime number sieve in Lean4.",
-      "language": "Lean",
-      "pushedAt": "2026-09-24T15:01:58Z",
-      "sites": [
-        {
-          "label": "Site",
-          "url": "https://tangentproofs.github.io/rakesieve/",
-          "title": "RakeSieve — Lean 4 prime sieve formalization",
-          "description": null,
-          "ogImage": null
-        }
-      ],
-      "informalization": false
-    },
-    {
-      "name": "eliahou-collatz-bounds",
-      "url": "https://github.com/tangentproofs/eliahou-collatz-bounds",
-      "githubDescription": "\"The 3x+1 problem: new lower bounds on nontrivial cycle lengths\" in Lean 4",
-      "language": "Lean",
-      "pushedAt": "2026-09-24T15:01:44Z",
-      "sites": [
-        {
-          "label": "Site",
-          "url": "https://tangentproofs.github.io/eliahou-collatz-bounds/",
-          "title": "Eliahou Collatz Bounds — Lean 4 formalization",
           "description": null,
           "ogImage": null
         }

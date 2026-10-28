@@ -19,6 +19,7 @@ Hand-maintained hints live in [`tools/overrides.json`](tools/overrides.json):
 - `sites`: extra site links per repo, for example laptop's live tool at aptop.tangentcode.com.
 - `siteLabel`: the label for a repo's own Pages site when it has several.
 - `description`: per-repo description overrides.
+- `language`: per-repo language-pill overrides, for when GitHub's primary language is wrong.
 - `exclude`: repos to hide.
 
 Commit the regenerated `repos.json` and `index.html`.

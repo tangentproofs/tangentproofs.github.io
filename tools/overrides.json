@@ -1,11 +1,14 @@
 {
-  "_comment": "Hand-maintained hints for tools/update.mjs. 'informalization' lists repos whose site reads a Lean proof back into plain English; they get the featured section. 'exclude' hides repos from the page. 'description' overrides the text shown for a repo. 'sites' adds extra site links per repo (label + url); the repo's own Pages/homepage is always probed and listed first.",
+  "_comment": "Hand-maintained hints for tools/update.mjs. 'informalization' lists repos whose site reads a Lean proof back into plain English; they get the featured section. 'exclude' hides repos from the page. 'description' overrides the text shown for a repo. 'sites' adds extra site links per repo (label + url); the repo's own Pages/homepage is always probed and listed first. 'language' overrides the language pill when GitHub's primary language is wrong (e.g. a Lean repo whose explainer JS outweighs the Lean).",
   "informalization": [
     "star-height",
     "fourcolor-lean",
     "turyn",
     "eulers-gem",
-    "subexponential-sat"
+    "subexponential-sat",
+    "rakesieve",
+    "eliahou-collatz-bounds",
+    "conway-knots"
   ],
   "exclude": [
     "tangentproofs.github.io"
@@ -23,10 +26,35 @@
         "label": "Plain-English informalization",
         "url": "https://tangentproofs.github.io/eulers-gem/learn/"
       }
+    ],
+    "rakesieve": [
+      {
+        "label": "Plain-English informalization",
+        "url": "https://tangentproofs.github.io/rakesieve/learn/"
+      }
+    ],
+    "eliahou-collatz-bounds": [
+      {
+        "label": "Plain-English informalization",
+        "url": "https://tangentproofs.github.io/eliahou-collatz-bounds/learn/"
+      }
+    ],
+    "conway-knots": [
+      {
+        "label": "Plain-English informalization",
+        "url": "https://tangentproofs.github.io/conway-knots/learn/"
+      }
     ]
   },
   "siteLabel": {
     "laptop": "Formalization (blueprint)",
-    "eulers-gem": "Formalization + browsable Lean"
+    "eulers-gem": "Formalization + browsable Lean",
+    "rakesieve": "Formalization",
+    "eliahou-collatz-bounds": "Formalization",
+    "conway-knots": "Formalization"
+  },
+  "language": {
+    "rakesieve": "Lean",
+    "eliahou-collatz-bounds": "Lean"
   }
 }

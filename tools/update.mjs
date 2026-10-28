@@ -61,7 +61,7 @@ async function fetchData() {
     const site = sites[0] || null;
     repos.push({
       name: r.name, url: r.url, githubDescription: (r.description || "").trim(),
-      language: r.primaryLanguage?.name ?? null, pushedAt: r.pushedAt,
+      language: overrides.language?.[r.name] ?? r.primaryLanguage?.name ?? null, pushedAt: r.pushedAt,
       sites: sites.map((x) => ({ label: x.label, url: x.url, title: x.ogTitle || x.title, description: x.ogDescription, ogImage: x.ogImage })),
       informalization: overrides.informalization.includes(r.name),
     });
