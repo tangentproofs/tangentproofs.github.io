@@ -4,7 +4,8 @@
     "star-height",
     "fourcolor-lean",
     "turyn",
-    "eulers-gem"
+    "eulers-gem",
+    "subexponential-sat"
   ],
   "exclude": [
     "tangentproofs.github.io"

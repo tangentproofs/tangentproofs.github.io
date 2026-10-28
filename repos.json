@@ -3,6 +3,23 @@
   "generated": "2026-10-22T22:09:20.908Z",
   "repos": [
     {
+      "name": "subexponential-sat",
+      "url": "https://github.com/tangentproofs/subexponential-sat",
+      "githubDescription": "Plain-English informalization of the OpenAI and Anthropic Lean proofs that k-SAT runs in subexponential time (ETH refutation claims, Oct 2026)",
+      "language": "JavaScript",
+      "pushedAt": "2026-10-28T03:24:37Z",
+      "sites": [
+        {
+          "label": "Site",
+          "url": "https://tangentproofs.github.io/subexponential-sat/",
+          "title": "Subexponential SAT, informalized",
+          "description": "Reading two Lean proofs, by OpenAI and by Anthropic, of claimed subexponential-time algorithms for k-SAT that would refute the Exponential Time Hypothesis: formal statements, plain English, quizzes, a review and browsable source.",
+          "ogImage": "https://tangentproofs.github.io/subexponential-sat/assets/og.png"
+        }
+      ],
+      "informalization": true
+    },
+    {
       "name": "eulers-gem",
       "url": "https://github.com/tangentproofs/eulers-gem",
       "githubDescription": "Lean 4 formalization of Euler's polyhedron formula (Euler's Gem) — F+V-E=2 and the Euler–Poincaré characteristic for convex polytopes",
