@@ -1,7 +1,31 @@
 {
   "org": "tangentproofs",
-  "generated": "2026-10-28T12:14:08.153Z",
+  "generated": "2026-10-29T06:04:16.356Z",
   "repos": [
+    {
+      "name": "rakesieve",
+      "url": "https://github.com/tangentproofs/rakesieve",
+      "githubDescription": "A formally verified prime number sieve in Lean4.",
+      "language": "Lean",
+      "pushedAt": "2026-10-28T16:10:48Z",
+      "sites": [
+        {
+          "label": "Formalization",
+          "url": "https://tangentproofs.github.io/rakesieve/",
+          "title": "RakeSieve — Lean 4 prime sieve formalization",
+          "description": null,
+          "ogImage": null
+        },
+        {
+          "label": "Plain-English informalization",
+          "url": "https://tangentproofs.github.io/rakesieve/learn/",
+          "title": "RakeSieve, explained",
+          "description": "Reading a Lean 4 prime sieve back into plain English: arithmetic sequences, rakes, the sieve invariant, what the headline theorem really says, quizzes and browsable source.",
+          "ogImage": "https://tangentproofs.github.io/rakesieve/learn/assets/og.png"
+        }
+      ],
+      "informalization": true
+    },
     {
       "name": "conway-knots",
       "url": "https://github.com/tangentproofs/conway-knots",
@@ -46,30 +70,6 @@
           "title": "Eliahou's Collatz cycle bounds, informalized",
           "description": "Eliahou's 1993 Collatz theorem read back into plain English from its Lean 4 proof: any 3x+1 cycle above 2^40 has at least 17,087,915 elements. Statements, proof outlines, quizzes and browsable source.",
           "ogImage": "https://tangentproofs.github.io/eliahou-collatz-bounds/learn/assets/og.png?v=1"
-        }
-      ],
-      "informalization": true
-    },
-    {
-      "name": "rakesieve",
-      "url": "https://github.com/tangentproofs/rakesieve",
-      "githubDescription": "A formally verified prime number sieve in Lean4.",
-      "language": "Lean",
-      "pushedAt": "2026-10-28T04:27:28Z",
-      "sites": [
-        {
-          "label": "Formalization",
-          "url": "https://tangentproofs.github.io/rakesieve/",
-          "title": "RakeSieve — Lean 4 prime sieve formalization",
-          "description": null,
-          "ogImage": null
-        },
-        {
-          "label": "Plain-English informalization",
-          "url": "https://tangentproofs.github.io/rakesieve/learn/",
-          "title": "RakeSieve, explained",
-          "description": "Reading a Lean 4 prime sieve back into plain English: arithmetic sequences, rakes, the sieve invariant, what the headline theorem really says, quizzes and browsable source.",
-          "ogImage": "https://tangentproofs.github.io/rakesieve/learn/assets/og.png"
         }
       ],
       "informalization": true
@@ -171,7 +171,7 @@
       "url": "https://github.com/tangentproofs/jacobian-variety",
       "githubDescription": "auto-formalizing some old school math",
       "language": "Lean",
-      "pushedAt": "2026-10-28T05:24:10Z",
+      "pushedAt": "2026-10-28T18:46:52Z",
       "sites": [
         {
           "label": "Site",

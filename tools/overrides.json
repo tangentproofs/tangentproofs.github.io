@@ -11,7 +11,8 @@
     "conway-knots"
   ],
   "exclude": [
-    "tangentproofs.github.io"
+    "tangentproofs.github.io",
+    "lean-nyc"
   ],
   "description": {},
   "sites": {
