@@ -8,7 +8,8 @@
     "subexponential-sat",
     "rakesieve",
     "eliahou-collatz-bounds",
-    "conway-knots"
+    "conway-knots",
+    "jacobian-variety"
   ],
   "exclude": [
     "tangentproofs.github.io",
@@ -45,6 +46,12 @@
         "label": "Plain-English informalization",
         "url": "https://tangentproofs.github.io/conway-knots/learn/"
       }
+    ],
+    "jacobian-variety": [
+      {
+        "label": "Plain-English informalization",
+        "url": "https://tangentproofs.github.io/jacobian-variety/learn/"
+      }
     ]
   },
   "siteLabel": {
@@ -52,7 +59,8 @@
     "eulers-gem": "Formalization + browsable Lean",
     "rakesieve": "Formalization",
     "eliahou-collatz-bounds": "Formalization",
-    "conway-knots": "Formalization"
+    "conway-knots": "Formalization",
+    "jacobian-variety": "Formalization (blueprint, PDFs)"
   },
   "language": {
     "rakesieve": "Lean",

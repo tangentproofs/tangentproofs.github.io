@@ -1,7 +1,31 @@
 {
   "org": "tangentproofs",
-  "generated": "2026-10-29T06:04:16.356Z",
+  "generated": "2026-10-30T11:44:37.931Z",
   "repos": [
+    {
+      "name": "jacobian-variety",
+      "url": "https://github.com/tangentproofs/jacobian-variety",
+      "githubDescription": "auto-formalizing some old school math",
+      "language": "Lean",
+      "pushedAt": "2026-10-30T11:44:25Z",
+      "sites": [
+        {
+          "label": "Formalization (blueprint, PDFs)",
+          "url": "https://tangentproofs.github.io/jacobian-variety/",
+          "title": "Jacobian Challenge",
+          "description": null,
+          "ogImage": null
+        },
+        {
+          "label": "Plain-English informalization",
+          "url": "https://tangentproofs.github.io/jacobian-variety/learn/",
+          "title": "Jacobian, explained",
+          "description": "Reading a Lean 4 formalization of the Jacobian of a compact Riemann surface back into plain English: genus, holomorphic 1-forms, the period lattice, the Abel–Jacobi map, pushforward, pullback and degree, with an independent honesty audit, quizzes and browsable source.",
+          "ogImage": "https://tangentproofs.github.io/jacobian-variety/learn/assets/og.png?v=1"
+        }
+      ],
+      "informalization": true
+    },
     {
       "name": "rakesieve",
       "url": "https://github.com/tangentproofs/rakesieve",
@@ -165,23 +189,6 @@
         }
       ],
       "informalization": true
-    },
-    {
-      "name": "jacobian-variety",
-      "url": "https://github.com/tangentproofs/jacobian-variety",
-      "githubDescription": "auto-formalizing some old school math",
-      "language": "Lean",
-      "pushedAt": "2026-10-28T18:46:52Z",
-      "sites": [
-        {
-          "label": "Site",
-          "url": "https://tangentproofs.github.io/jacobian-variety/",
-          "title": "Jacobian Challenge",
-          "description": null,
-          "ogImage": null
-        }
-      ],
-      "informalization": false
     },
     {
       "name": "laptop",
