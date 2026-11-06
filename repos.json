@@ -1,13 +1,102 @@
 {
   "org": "tangentproofs",
-  "generated": "2026-10-30T11:44:37.931Z",
+  "generated": "2026-11-06T23:10:31.433Z",
   "repos": [
+    {
+      "name": "openai",
+      "url": "https://github.com/tangentproofs/openai",
+      "githubDescription": "Plain-English explainers of OpenAI mathematical papers and their formalization targets",
+      "language": "Lean",
+      "pushedAt": "2026-11-06T22:42:27Z",
+      "sites": [
+        {
+          "label": "Index of openai/math explainers (unofficial)",
+          "url": "https://tangentproofs.github.io/openai/",
+          "title": "OpenAI math proofs, explained (unofficial)",
+          "description": "Unofficial, AI-assisted plain-English explainers of Lean proofs published in OpenAI's openai/math repository.",
+          "ogImage": null
+        },
+        {
+          "label": "Plain-English explainer: SK full support",
+          "url": "https://tangentproofs.github.io/openai/sk-full-support/",
+          "title": "Zero-temperature SK full support, explained (unofficial explainer)",
+          "description": "Unofficial plain-English explainer of the Lean theorem OAI.ZeroTemperatureSK.full_support in openai/math: every minimizer of the zero-temperature Parisi functional for the pure SK model has full support on [0,1).",
+          "ogImage": null
+        }
+      ],
+      "informalization": true
+    },
+    {
+      "name": "conway-knots",
+      "url": "https://github.com/tangentproofs/conway-knots",
+      "githubDescription": "Lean 4 + Autoform formalization of Conway's classification of rational tangles",
+      "language": "Lean",
+      "pushedAt": "2026-11-02T14:16:07Z",
+      "sites": [
+        {
+          "label": "Formalization",
+          "url": "https://tangentproofs.github.io/conway-knots/",
+          "title": "Rational tangles - Conway knots",
+          "description": null,
+          "ogImage": null
+        },
+        {
+          "label": "Plain-English informalization",
+          "url": "https://tangentproofs.github.io/conway-knots/learn/",
+          "title": "Conway's rational tangles, informalized",
+          "description": "Reading a Lean formalization of part of Conway's classification of rational tangles (via Kauffman–Lambropoulou's integer colorings): formal statements in plain English, proof outlines, quizzes, an honest review of what is and isn't proved, and browsable source.",
+          "ogImage": "https://tangentproofs.github.io/conway-knots/learn/assets/og.png?v=1"
+        }
+      ],
+      "informalization": true
+    },
+    {
+      "name": "eliahou-collatz-bounds",
+      "url": "https://github.com/tangentproofs/eliahou-collatz-bounds",
+      "githubDescription": "\"The 3x+1 problem: new lower bounds on nontrivial cycle lengths\" in Lean 4",
+      "language": "Lean",
+      "pushedAt": "2026-11-02T14:16:06Z",
+      "sites": [
+        {
+          "label": "Formalization",
+          "url": "https://tangentproofs.github.io/eliahou-collatz-bounds/",
+          "title": "Eliahou Collatz Bounds — Lean 4 formalization",
+          "description": null,
+          "ogImage": null
+        },
+        {
+          "label": "Plain-English informalization",
+          "url": "https://tangentproofs.github.io/eliahou-collatz-bounds/learn/",
+          "title": "Eliahou's Collatz cycle bounds, informalized",
+          "description": "Eliahou's 1993 Collatz theorem read back into plain English from its Lean 4 proof: any 3x+1 cycle above 2^40 has at least 17,087,915 elements. Statements, proof outlines, quizzes and browsable source.",
+          "ogImage": "https://tangentproofs.github.io/eliahou-collatz-bounds/learn/assets/og.png?v=1"
+        }
+      ],
+      "informalization": true
+    },
+    {
+      "name": "turyn",
+      "url": "https://github.com/tangentproofs/turyn",
+      "githubDescription": "turyn-type sequences",
+      "language": "Rust",
+      "pushedAt": "2026-10-31T03:19:40Z",
+      "sites": [
+        {
+          "label": "Site",
+          "url": "https://tangentproofs.github.io/turyn/",
+          "title": "Turyn-type sequences → Hadamard matrices, in Lean, read back into English",
+          "description": "Every TT(n) gives a Hadamard matrix of order 4(3n−1): the Lean statements, plain English, quizzes, interactive sequence and matrix demos, and a proof graph.",
+          "ogImage": "https://tangentproofs.github.io/turyn/assets/og.png"
+        }
+      ],
+      "informalization": true
+    },
     {
       "name": "jacobian-variety",
       "url": "https://github.com/tangentproofs/jacobian-variety",
       "githubDescription": "auto-formalizing some old school math",
       "language": "Lean",
-      "pushedAt": "2026-10-30T11:44:25Z",
+      "pushedAt": "2026-10-30T12:40:04Z",
       "sites": [
         {
           "label": "Formalization (blueprint, PDFs)",
@@ -46,54 +135,6 @@
           "title": "RakeSieve, explained",
           "description": "Reading a Lean 4 prime sieve back into plain English: arithmetic sequences, rakes, the sieve invariant, what the headline theorem really says, quizzes and browsable source.",
           "ogImage": "https://tangentproofs.github.io/rakesieve/learn/assets/og.png"
-        }
-      ],
-      "informalization": true
-    },
-    {
-      "name": "conway-knots",
-      "url": "https://github.com/tangentproofs/conway-knots",
-      "githubDescription": "Lean 4 + Autoform formalization of Conway's classification of rational tangles",
-      "language": "Lean",
-      "pushedAt": "2026-10-28T04:54:34Z",
-      "sites": [
-        {
-          "label": "Formalization",
-          "url": "https://tangentproofs.github.io/conway-knots/",
-          "title": "Rational tangles - Conway knots",
-          "description": null,
-          "ogImage": null
-        },
-        {
-          "label": "Plain-English informalization",
-          "url": "https://tangentproofs.github.io/conway-knots/learn/",
-          "title": "Conway's rational tangles, informalized",
-          "description": "Reading a Lean formalization of part of Conway's classification of rational tangles (via Kauffman–Lambropoulou's integer colorings): formal statements in plain English, proof outlines, quizzes, an honest review of what is and isn't proved, and browsable source.",
-          "ogImage": "https://tangentproofs.github.io/conway-knots/learn/assets/og.png?v=1"
-        }
-      ],
-      "informalization": true
-    },
-    {
-      "name": "eliahou-collatz-bounds",
-      "url": "https://github.com/tangentproofs/eliahou-collatz-bounds",
-      "githubDescription": "\"The 3x+1 problem: new lower bounds on nontrivial cycle lengths\" in Lean 4",
-      "language": "Lean",
-      "pushedAt": "2026-10-28T04:39:36Z",
-      "sites": [
-        {
-          "label": "Formalization",
-          "url": "https://tangentproofs.github.io/eliahou-collatz-bounds/",
-          "title": "Eliahou Collatz Bounds — Lean 4 formalization",
-          "description": null,
-          "ogImage": null
-        },
-        {
-          "label": "Plain-English informalization",
-          "url": "https://tangentproofs.github.io/eliahou-collatz-bounds/learn/",
-          "title": "Eliahou's Collatz cycle bounds, informalized",
-          "description": "Eliahou's 1993 Collatz theorem read back into plain English from its Lean 4 proof: any 3x+1 cycle above 2^40 has at least 17,087,915 elements. Statements, proof outlines, quizzes and browsable source.",
-          "ogImage": "https://tangentproofs.github.io/eliahou-collatz-bounds/learn/assets/og.png?v=1"
         }
       ],
       "informalization": true
@@ -152,23 +193,6 @@
           "title": "Euler's Gem, in Lean, read back into English",
           "description": "The Lean 4 proof of Euler's polyhedron formula V − E + F = 2, read back into plain English: statements, explanations, quizzes, interactive polyhedra and a proof graph.",
           "ogImage": "https://tangentproofs.github.io/eulers-gem/assets/og.png"
-        }
-      ],
-      "informalization": true
-    },
-    {
-      "name": "turyn",
-      "url": "https://github.com/tangentproofs/turyn",
-      "githubDescription": "turyn-type sequences",
-      "language": "Rust",
-      "pushedAt": "2026-10-22T22:50:28Z",
-      "sites": [
-        {
-          "label": "Site",
-          "url": "https://tangentproofs.github.io/turyn/",
-          "title": "Turyn-type sequences → Hadamard matrices, in Lean, read back into English",
-          "description": "Every TT(n) gives a Hadamard matrix of order 4(3n−1): the Lean statements, plain English, quizzes, interactive sequence and matrix demos, and a proof graph.",
-          "ogImage": "https://tangentproofs.github.io/turyn/assets/og.png"
         }
       ],
       "informalization": true

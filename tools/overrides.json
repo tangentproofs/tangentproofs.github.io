@@ -9,13 +9,16 @@
     "rakesieve",
     "eliahou-collatz-bounds",
     "conway-knots",
-    "jacobian-variety"
+    "jacobian-variety",
+    "openai"
   ],
   "exclude": [
     "tangentproofs.github.io",
     "lean-nyc"
   ],
-  "description": {},
+  "description": {
+    "openai": "Unofficial, AI-assisted plain-English explainer of a Lean 4 proof by others: full support of the zero-temperature Sherrington–Kirkpatrick order parameter, from OpenAI's openai/math (Apache-2.0). Not affiliated with OpenAI; drafts are unreviewed and may contain mistakes — the Lean source is the ground truth."
+  },
   "sites": {
     "laptop": [
       {
@@ -52,6 +55,12 @@
         "label": "Plain-English informalization",
         "url": "https://tangentproofs.github.io/jacobian-variety/learn/"
       }
+    ],
+    "openai": [
+      {
+        "label": "Plain-English explainer: SK full support",
+        "url": "https://tangentproofs.github.io/openai/sk-full-support/"
+      }
     ]
   },
   "siteLabel": {
@@ -60,10 +69,12 @@
     "rakesieve": "Formalization",
     "eliahou-collatz-bounds": "Formalization",
     "conway-knots": "Formalization",
-    "jacobian-variety": "Formalization (blueprint, PDFs)"
+    "jacobian-variety": "Formalization (blueprint, PDFs)",
+    "openai": "Index of openai/math explainers (unofficial)"
   },
   "language": {
     "rakesieve": "Lean",
-    "eliahou-collatz-bounds": "Lean"
+    "eliahou-collatz-bounds": "Lean",
+    "openai": "Lean"
   }
 }
