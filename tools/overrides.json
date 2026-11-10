@@ -10,14 +10,16 @@
     "eliahou-collatz-bounds",
     "conway-knots",
     "jacobian-variety",
-    "openai"
+    "openai",
+    "vau-calculus"
   ],
   "exclude": [
     "tangentproofs.github.io",
     "lean-nyc"
   ],
   "description": {
-    "openai": "Unofficial, AI-assisted plain-English explainer of a Lean 4 proof by others: full support of the zero-temperature Sherrington–Kirkpatrick order parameter, from OpenAI's openai/math (Apache-2.0). Not affiliated with OpenAI; drafts are unreviewed and may contain mistakes — the Lean source is the ground truth."
+    "openai": "Unofficial, AI-assisted plain-English explainer of a Lean 4 proof by others: full support of the zero-temperature Sherrington–Kirkpatrick order parameter, from OpenAI's openai/math (Apache-2.0). Not affiliated with OpenAI; drafts are unreviewed and may contain mistakes — the Lean source is the ground truth.",
+    "vau-calculus": "In-progress Lean 4 formalization of John N. Shutt's vau calculus, with a plain-English informalization of the current work. An actor layer is planned and is not completed. Unofficial, unreviewed drafts (AI-drafted); not official documentation."
   },
   "sites": {
     "laptop": [
@@ -61,6 +63,12 @@
         "label": "Plain-English explainer: SK full support",
         "url": "https://tangentproofs.github.io/openai/sk-full-support/"
       }
+    ],
+    "vau-calculus": [
+      {
+        "label": "Plain-English informalization",
+        "url": "https://tangentproofs.github.io/vau-calculus/vau/"
+      }
     ]
   },
   "siteLabel": {
@@ -70,11 +78,13 @@
     "eliahou-collatz-bounds": "Formalization",
     "conway-knots": "Formalization",
     "jacobian-variety": "Formalization (blueprint, PDFs)",
-    "openai": "Index of openai/math explainers (unofficial)"
+    "openai": "Index of openai/math explainers (unofficial)",
+    "vau-calculus": "Index (unofficial)"
   },
   "language": {
     "rakesieve": "Lean",
     "eliahou-collatz-bounds": "Lean",
-    "openai": "Lean"
+    "openai": "Lean",
+    "vau-calculus": "Lean"
   }
 }

@@ -1,7 +1,31 @@
 {
   "org": "tangentproofs",
-  "generated": "2026-11-06T23:10:31.433Z",
+  "generated": "2026-11-10T05:28:02.691Z",
   "repos": [
+    {
+      "name": "vau-calculus",
+      "url": "https://github.com/tangentproofs/vau-calculus",
+      "githubDescription": "Plain-English informalization and Lean 4 formalization of Shutt's vau calculus (actors later). Not official documentation.",
+      "language": "Lean",
+      "pushedAt": "2026-11-10T05:27:08Z",
+      "sites": [
+        {
+          "label": "Index (unofficial)",
+          "url": "https://tangentproofs.github.io/vau-calculus/",
+          "title": "Vau calculus, explained (unofficial)",
+          "description": "Unofficial, AI-drafted plain-English explainer of John N. Shutt's vau calculus, with a Lean 4 formalization of the pure vau-x calculus in the same repository.",
+          "ogImage": null
+        },
+        {
+          "label": "Plain-English informalization",
+          "url": "https://tangentproofs.github.io/vau-calculus/vau/",
+          "title": "Vau calculus, explained (unofficial explainer)",
+          "description": "Unofficial, AI-drafted explainer of John N. Shutt&#x27;s vau calculus with a Lean 4 formalization (no sorry, no Mathlib): pure vau-x with confluence, evaluation as reduction, conservative extension of call-by-value lambda and nontrivial contextual equivalence; and vau-e with environments, $vau, wrap/unwrap, derived $lambda and confluence.",
+          "ogImage": null
+        }
+      ],
+      "informalization": true
+    },
     {
       "name": "openai",
       "url": "https://github.com/tangentproofs/openai",
@@ -236,6 +260,15 @@
           "ogImage": null
         }
       ],
+      "informalization": false
+    },
+    {
+      "name": "informalization-tools",
+      "url": "https://github.com/tangentproofs/informalization-tools",
+      "githubDescription": "Engine, prompts and procedure for plain-English informalization sites of Lean 4 projects",
+      "language": "JavaScript",
+      "pushedAt": "2026-11-07T16:39:12Z",
+      "sites": [],
       "informalization": false
     },
     {
